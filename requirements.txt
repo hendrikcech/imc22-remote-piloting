@@ -1,0 +1,13 @@
+matplotlib==3.5.3
+pandas==1.4.4
+numpy==1.23.2
+PyQt5==5.15.7
+seaborn==0.12.0
+
+# For parsers/pcap_latency.py
+# We need support for DLT_LINUX_SLL2 in scapy which will only be released in v2.5.0
+git+https://github.com/secdev/scapy@v2.5.0rc1#egg=scapy
+
+# For parsers/ssim.py
+scikit-image==0.19.3
+pyzbar==0.1.8

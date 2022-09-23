@@ -1,0 +1,118 @@
+# https://matplotlib.org/stable/tutorials/introductory/customizing.html
+# https://matplotlib.org/stable/tutorials/introductory/customizing.html#the-default-matplotlibrc-file
+
+xtick.color: 323034
+ytick.color: 323034
+text.color: 323034
+lines.markeredgecolor:   black
+patch.facecolor:         bc80bd
+patch.force_edgecolor:   True
+patch.linewidth: 0.8
+scatter.edgecolors: black
+grid.color: b1afb5
+grid.linestyle: --
+grid.linewidth: 0.4
+grid.alpha: 0.3
+axes.titlesize: 10
+axes.titleweight: bold
+axes.labelsize: 10
+xtick.labelsize: 9
+ytick.labelsize: 9
+xtick.direction: in
+ytick.direction: in
+xtick.major.width: 0.8
+ytick.major.width: 0.8
+xtick.minor.width: 0.6
+ytick.minor.width: 0.6
+
+
+font.size: 10
+#axes.prop_cycle : (cycler('color', ['66c2a5', 'fc8d62', '8da0cb', 'e78ac3', 'a6d854']))
+axes.prop_cycle : (cycler('color', ['steelblue', 'sandybrown', 'mediumseagreen', 'indianred', 'dimgrey', 'orchid', 'goldenrod', 'darkcyan', 'mediumslateblue', 'darkkhaki']))
+mathtext.fontset: stix
+# font.family: Linux Biolinum
+font.family: Linux Libertine
+# font.family: Calibri
+
+text.usetex: True
+text.latex.preamble: \usepackage{libertine}
+# font.family: serif
+# font.serif: Computer Modern Roman
+# font.sans-serif: Computer Modern Sans Serif
+
+lines.linewidth: 1.5
+legend.title_fontsize: 10
+legend.frameon: True
+legend.framealpha: 1
+legend.fontsize: 10
+legend.edgecolor: 0.9
+legend.borderpad: 0.2
+legend.columnspacing: 1.5
+legend.labelspacing:  0.4
+legend.handlelength: 1.0
+legend.handletextpad: 0.4
+legend.fancybox: False
+legend.shadow: False
+axes.titlelocation: left
+axes.formatter.use_mathtext: True
+axes.autolimit_mode: round_numbers
+axes.labelpad: 3
+axes.formatter.limits: -4, 4
+axes.labelcolor: black
+axes.edgecolor: black
+axes.linewidth: 0.8
+axes.grid: True
+figure.titlesize: 10
+figure.titleweight: bold
+figure.dpi: 300
+# width of one column = 3.33 inch
+figure.figsize: 3.35,2.09
+figure.autolayout: False
+pdf.fonttype: 42
+
+## ***************************************************************************
+## * BOXPLOT                                                                 *
+## ***************************************************************************
+boxplot.notch:        False
+#boxplot.vertical:    True
+#boxplot.whiskers:    1.5
+#boxplot.bootstrap:   None
+boxplot.patchartist:  True
+boxplot.showmeans:    True
+#boxplot.showcaps:    True
+#boxplot.showbox:     True
+boxplot.showfliers:   True
+boxplot.meanline:     False
+
+#boxplot.flierprops.color:           black
+boxplot.flierprops.marker:           .
+#boxplot.flierprops.markerfacecolor: none
+#boxplot.flierprops.markeredgecolor: black
+#boxplot.flierprops.markeredgewidth: 1.0
+boxplot.flierprops.markersize:       4
+#boxplot.flierprops.linestyle:       none
+#boxplot.flierprops.linewidth:       1.0
+
+# boxplot.boxprops.color:     black
+#boxplot.boxprops.linewidth: 1.0
+#boxplot.boxprops.linestyle: -
+
+#boxplot.whiskerprops.color:     black
+#boxplot.whiskerprops.linewidth: 1.0
+#boxplot.whiskerprops.linestyle: -
+
+#boxplot.capprops.color:     black
+#boxplot.capprops.linewidth: 1.0
+#boxplot.capprops.linestyle: -
+
+boxplot.medianprops.color:     black
+#boxplot.medianprops.linewidth: 1.0
+#boxplot.medianprops.linestyle: -
+
+boxplot.meanprops.color:           C5
+boxplot.meanprops.marker:           ^
+boxplot.meanprops.markerfacecolor: C5
+boxplot.meanprops.markeredgecolor: C5
+boxplot.meanprops.markersize:       4
+#boxplot.meanprops.linestyle:       --
+#boxplot.meanprops.linewidth:       1.0
