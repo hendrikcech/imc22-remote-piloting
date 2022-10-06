@@ -39,7 +39,12 @@ The dataset that we built by conducting drone flights is available for download 
 The figures contained in our paper can be generated with the following steps.
 
 ### Step 1: Download the dataset
-Please visit our [mediaTUM](https://mediatum.ub.tum.de/1687221) publication and download our dataset. It contains a SQLite database from which the plotted data is retrieved.
+Please visit our [mediaTUM](https://mediatum.ub.tum.de/1687221) publication and download our dataset. It contains a SQLite database from which the plotted data is retrieved. The dataset can be conveniently downloaded using rsync:
+
+```sh
+export RSYNC_PASSWORD=m1687221
+rsync -r –-info=progress2 rsync://m1687221@dataserv.ub.tum.de/m1687221/ imc22-dataset/
+```
 
 ### Step 2: Set up Python
 We used Python version 3.10.5 to generate the plots. Install the required packages listed in `requirements.txt` either system-wide or in a virtual environment as described below.
